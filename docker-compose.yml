@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  webpack:
+    build: .
+    ports:
+      - '8080:8080'
+    volumes:
+      - ./src:/frontend/src
+      
